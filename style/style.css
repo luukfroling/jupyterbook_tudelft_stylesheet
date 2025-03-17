@@ -127,13 +127,3 @@ aside.important > div:first-child {
 aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
-
-em { 
-  background: black;
-}
-
-p {
-  color: var(--tud-raspberry);
-  background: var(--tud-yellow);
-}
-
