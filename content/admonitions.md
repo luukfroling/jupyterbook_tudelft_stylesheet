@@ -9,9 +9,9 @@ here is some text
 this one is important
 ::::::
 
-::::::{notsoimportant}
-:class: testclass
-this one is important
+::::::{danger}
+:class: danger
+this one is danger
 ::::::
 
 ::::::{topic} This is a topic

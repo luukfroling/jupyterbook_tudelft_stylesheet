@@ -79,15 +79,34 @@ html[data-theme="dark"] {
   --tud-darkBlue-mid: #c1e3ff25;
 }
 
-.important {
+/* Admonitions Danger and Error */
+
+aside.danger, 
+ aside.error {
+  border-color: var(--tud-red);
+  background-color: var(--tud-red-min);
+}
+aside.danger > div:first-child,
+ aside.error > div:first-child {
+  background-color: var(--tud-red-mid);
+}
+div.admonition.danger > .div:first-child::after,
+ div.admonition.error > .div:first-child::after {
+  color: var(--tud-red);
+}
+
+
+/* Admonitions important */
+
+aside.important {
   border-color: var(--tud-orange);
   background-color: var(--tud-orange-min);
 }
-.important > div:first-child {
+aside.important > div:first-child {
   background-color: var(--tud-orange-mid);
 }
 
-.important > div:first-child > svg {
+aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
 
