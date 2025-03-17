@@ -128,6 +128,18 @@ aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
 
+  /* all buttons */
+  .sd-btn{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    border: 0 !important;
+  }
+  .sd-btn:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    border: 0 !important;
+  }
+
 
  /* button primary */
  a.button{
@@ -135,3 +147,16 @@ aside.important > div:first-child > svg {
    background-color: var(--tud-cyan) !important;
    border-color: var(--tud-cyan) !important;
  }
+
+.tud-red {color: var(--tud-red);}
+.tud-blue {color: var(--tud-blue);}
+.tud-green {color: var(--tud-green);}
+.tud-tud-raspberry {color: var(--tud-raspberry);}
+.tud-yellow {color: var(--tud-yellow);}
+.tud-darkGreen {color: var(--tud-darkGreen);}
+.tud-orange {color: var(--tud-orange);}
+.tud-cyan {color: var(--tud-cyan);}
+.tud-gray {color: var(--tud-gray);}
+.tud-purple {color: var(--tud-purple);}
+.tud-pink {color: var(--tud-pink);}
+.tud-darkBlue {color: var(--tud-darkBlue);}
