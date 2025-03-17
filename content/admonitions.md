@@ -14,6 +14,11 @@ this one is important
 this one is danger
 ::::::
 
+::::::{error}
+:class: error
+this one is error
+::::::
+
 ::::::{topic} This is a topic
 :class: note
 This is a topic
