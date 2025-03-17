@@ -84,6 +84,9 @@ html[data-theme="dark"] {
   background-color: var(--tud-orange-min);
 }
 
+.important > div:first-child {
+  background-color: var(--tud-orange-mid);
+}
 
 em { 
   background: black;
