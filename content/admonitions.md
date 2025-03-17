@@ -9,6 +9,11 @@ here is some text
 this one is important
 ::::::
 
+::::::{notsoimportant}
+:class: testclass
+this one is important
+::::::
+
 ::::::{topic} This is a topic
 This is a topic
 ::::::
