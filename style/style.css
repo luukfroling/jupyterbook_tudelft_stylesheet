@@ -90,9 +90,27 @@ aside.danger > div:first-child,
  aside.error > div:first-child {
   background-color: var(--tud-red-mid);
 }
-div.admonition.danger > .div:first-child::after,
- div.admonition.error > .div:first-child::after {
+div.admonition.danger > div:first-child::after,
+ div.admonition.error > div:first-child::after {
   color: var(--tud-red);
+}
+
+/* Caution, Warning, Attention, Important */
+aside.caution, aside.warning, aside.attention, aside.important {
+  border-color: var(--tud-orange);
+  background-color: var(--tud-orange-min);
+}
+aside.caution > div:first-child,
+ aside.warning > div:first-child,
+  aside.attention > div:first-child,
+   aside.important > div:first-child {
+  background-color: var(--tud-orange-mid);
+}
+aside.caution > div:first-child::after,
+ aside.warning > div:first-child::after,
+  aside.attention > div:first-child::after,
+   aside.important > div:first-child::after {
+  color: var(--tud-orange);
 }
 
 

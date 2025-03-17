@@ -19,6 +19,16 @@ this one is danger
 this one is error
 ::::::
 
+::::::{caution}
+:class: caution
+this one is caution
+::::::
+
+::::::{attention}
+:class: attention
+this one is attention
+::::::
+
 ::::::{topic} This is a topic
 :class: note
 This is a topic
