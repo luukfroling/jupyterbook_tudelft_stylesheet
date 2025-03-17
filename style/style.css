@@ -169,7 +169,7 @@ aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
 
-  /* all buttons */
+  /* all buttons check to make this work
   .sd-btn{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s, transform 0.3s;
@@ -179,7 +179,7 @@ aside.important > div:first-child > svg {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
     border: 0 !important;
-  }
+  } */
 
 
  /* button primary */
@@ -189,6 +189,10 @@ aside.important > div:first-child > svg {
    border-color: var(--tud-cyan) !important;
  }
 
+aside[id^="exercise-"] {
+  border-color: var(--tud-raspberry);
+  background-color: var(--tud-raspberry-min);
+}
 
  /* Exercise */
 aside.exercise p.admonition-title::after {
@@ -199,8 +203,7 @@ aside.exercise p.admonition-title::before {
   content: "";
 }
 aside.exercise {
-  border-color: var(--tud-raspberry);
-  background-color: var(--tud-raspberry-min);
+  
 }
 aside.exercise > p.admonition-title {
   background-color: var(--tud-raspberry-mid);
