@@ -79,6 +79,14 @@ html[data-theme="dark"] {
   --tud-darkBlue-mid: #c1e3ff25;
 }
 
+/* Unsure how this changes the page. included for future reference */
+html {
+  --pst-color-primary: var(--tud-cyan) !important;
+  --pst-color-secondary: var(--tud-green) !important;
+  --pst-color-table-row-hover-bg: var(--tud-raspberry-mid) !important;
+}
+
+
 /* Admonitions Danger and Error */
 
 aside.danger, 
