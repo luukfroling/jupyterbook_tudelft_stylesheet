@@ -127,3 +127,11 @@ aside.important > div:first-child {
 aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
+
+
+ /* button primary */
+ a.button{
+   color: #FFFFFF !important;
+   background-color: var(--tud-cyan) !important;
+   border-color: var(--tud-cyan) !important;
+ }
