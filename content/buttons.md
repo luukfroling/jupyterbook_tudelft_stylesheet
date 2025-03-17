@@ -1,6 +1,7 @@
 # Buttons
+{button}`MyST-MD GitHub <https://github.com/jupyter-book/mystmd>`
 
-::::::{button-link} https://example.com 
+::::::{button} https://example.com 
 :color: primary
 ::::::
 
