@@ -83,9 +83,12 @@ html[data-theme="dark"] {
   border-color: var(--tud-orange);
   background-color: var(--tud-orange-min);
 }
-
 .important > div:first-child {
   background-color: var(--tud-orange-mid);
+}
+
+.important > div:first-child > svg {
+  fill: var(--tud-orange);
 }
 
 em { 
