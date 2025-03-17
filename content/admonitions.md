@@ -1,8 +1,9 @@
 # admonitions
 
-_test_
-
-here is some text
+::::::{admonition} The one with the custom titles
+:class: admonition
+It's got a certain charm to it. (admonition)
+::::::
 
 ::::::{important}
 :class: important
@@ -33,3 +34,4 @@ this one is attention
 :class: note
 This is a topic
 ::::::
+

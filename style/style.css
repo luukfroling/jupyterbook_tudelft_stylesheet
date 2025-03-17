@@ -129,7 +129,7 @@ aside.hint,
   border-color: var(--tud-green);
   background-color: var(--tud-green-min);
 }
-aside.hint > .div:first-child,
+aside.hint > div:first-child,
  aside.note > div:first-child,
   aside.seealso > div:first-child,
    aside.tip > div:first-child,
@@ -144,6 +144,16 @@ div.admonition.hint > div:first-child::after,
   color: var(--tud-green);
 }
 
+aside.admonition {
+  border-color: var(--tud-cyan);
+  background-color: var(--tud-cyan-min);
+}
+aside.admonition > div:first-child {
+  background-color: var(--tud-cyan-mid);
+}
+aside.admonition > div:first-child::after {
+  color: var(--tud-cyan);
+}
 
 /* Admonitions important */
 
@@ -178,6 +188,23 @@ aside.important > div:first-child > svg {
    background-color: var(--tud-cyan) !important;
    border-color: var(--tud-cyan) !important;
  }
+
+
+ /* Exercise */
+aside.exercise p.admonition-title::after {
+  content: "\f12e";
+  color: var(--tud-raspberry);
+}
+aside.exercise p.admonition-title::before {
+  content: "";
+}
+aside.exercise {
+  border-color: var(--tud-raspberry);
+  background-color: var(--tud-raspberry-min);
+}
+aside.exercise > p.admonition-title {
+  background-color: var(--tud-raspberry-mid);
+}
 
 .tud-red {color: var(--tud-red);}
 .tud-blue {color: var(--tud-blue);}
