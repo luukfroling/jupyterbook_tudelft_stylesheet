@@ -88,7 +88,6 @@ html {
 
 
 /* Admonitions Danger and Error */
-
 aside.danger, 
  aside.error {
   border-color: var(--tud-red);
@@ -119,6 +118,30 @@ aside.caution > div:first-child::after,
   aside.attention > div:first-child::after,
    aside.important > div:first-child::after {
   color: var(--tud-orange);
+}
+
+/* Hint, Note, SeeAlso, Tip, Remark */
+aside.hint, 
+ aside.note, 
+  aside.seealso, 
+   aside.tip, 
+    aside.remark {
+  border-color: var(--tud-green);
+  background-color: var(--tud-green-min);
+}
+aside.hint > .div:first-child,
+ aside.note > div:first-child,
+  aside.seealso > div:first-child,
+   aside.tip > div:first-child,
+    aside.remark > div:first-child  {
+  background-color: var(--tud-green-mid);
+}
+div.admonition.hint > div:first-child::after,
+ div.admonition.note > div:first-child::after,
+  div.admonition.seealso > div:first-child::after,
+   div.admonition.tip > div:first-child::after,
+    div.admonition.remark > div:first-child::after {
+  color: var(--tud-green);
 }
 
 
