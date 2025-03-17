@@ -5,7 +5,7 @@ _test_
 here is some text
 
 ::::::{important}
-:class: testclass
+:class: important
 this one is important
 ::::::
 
@@ -15,5 +15,6 @@ this one is important
 ::::::
 
 ::::::{topic} This is a topic
+:class: note
 This is a topic
 ::::::

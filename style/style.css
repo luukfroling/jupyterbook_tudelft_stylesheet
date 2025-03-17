@@ -79,6 +79,11 @@ html[data-theme="dark"] {
   --tud-darkBlue-mid: #c1e3ff25;
 }
 
+.important {
+  border-color: var(--tud-orange);
+  background-color: var(--tud-orange-min);
+}
+
 
 em { 
   background: black;
