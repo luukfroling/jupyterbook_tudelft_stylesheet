@@ -5,6 +5,7 @@ _test_
 here is some text
 
 ::::::{important}
+:class: testclass
 this one is important
 ::::::
 
