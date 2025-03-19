@@ -25,24 +25,17 @@ Let $z$ be any other point in $S$ and use the fact that $S$ is a linear subspace
 Hence $\| y - z \| \geq \| y - \hat y \|$, which completes the proof.
 :::
 
-:::{prf:proof}
-:class: dropdown
+##  prf:definition
 
-We'll omit the full proof.
+::::::{prf:definition}
+:class: customClass
+:label: definition-1
+The *economical expansion problem* (EEP) for
+$(A,B)$ is to find a semi-positive $n$-vector $p>0$
+and a number $\beta\in\mathbb{R}$, such that
 
-But we will prove sufficiency of the asserted conditions.
-
-To this end, let $y \in \mathbb R^n$ and let $S$ be a linear subspace of $\mathbb R^n$.
-
-Let $\hat y$ be a vector in $\mathbb R^n$ such that $\hat y \in S$ and $y - \hat y \perp S$.
-
-Let $z$ be any other point in $S$ and use the fact that $S$ is a linear subspace to deduce
-
-```{math}
-\| y - z \|^2
-= \| (y - \hat y) + (\hat y - z) \|^2
-= \| y - \hat y \|^2  + \| \hat y - z  \|^2
-```
-
-Hence $\| y - z \| \geq \| y - \hat y \|$, which completes the proof.
-:::
+$$
+&\min_{\beta} \hspace{2mm} \beta \\
+&\text{s.t. }\hspace{2mm}Bp \leq \beta Ap
+$$
+::::::
