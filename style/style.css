@@ -195,17 +195,15 @@ aside[id^="exercise-"] {
 }
 
  /* Exercise */
-aside.exercise > div:first-child::after {
+aside.exercise > div:first-child > div:first-child::after {
   content: "\f12e";
   color: var(--tud-raspberry);
 }
-aside.exercise div:first-child::before {
+aside.exercise > div:first-child > div:first-child::before {
   content: "";
 }
-aside.exercise {
-  
-}
-aside.exercise > div:first-child {
+
+aside.exercise > div:first-child > div:first-child {
   background-color: var(--tud-raspberry-mid);
 }
 
