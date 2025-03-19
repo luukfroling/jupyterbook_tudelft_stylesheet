@@ -183,16 +183,16 @@ aside[id^="proof-"] > div:first-child {
 
 /* prf:definition */
 
-aside[id^="proof-"] div:first-child::after {
+aside[id^="definition-"] div:first-child::after {
   content: "\f02d";
   color: var(--tud-blue);
 }
 
-aside[id^="proof-"] {
+aside[id^="definition-"] {
   border-color: var(--tud-blue);
   background-color: var(--tud-blue-min);
 }
-aside[id^="proof-"] > div:first-child::after {
+aside[id^="definition-"] > div:first-child::after {
   background-color: var(--tud-blue-mid);
 }
 
