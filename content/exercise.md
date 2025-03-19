@@ -3,7 +3,7 @@
 
 
 :::{exercise}
-:class: exercisehellohello
+:label: exercise-1
 
 The *economical expansion problem* (EEP) for
 $(A,B)$ is to find a semi-positive $n$-vector $p>0$
