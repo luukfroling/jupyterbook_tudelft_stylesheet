@@ -195,15 +195,16 @@ aside[id^="exercise-"] {
 }
 
  /* Exercise */
-aside.exercise > div:first-child > div:first-child::after {
+ /* Style for title */
+aside[id^="exercise-"] > div:first-child > div:first-child::after {
   content: "\f12e";
   color: var(--tud-raspberry);
 }
-aside.exercise > div:first-child > div:first-child::before {
+aside[id^="exercise-"] > div:first-child > div:first-child::before {
   content: "";
 }
 
-aside.exercise > div:first-child > div:first-child {
+aside[id^="exercise-"] > div:first-child > div:first-child {
   background-color: var(--tud-raspberry-mid);
 }
 
