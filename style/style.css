@@ -169,11 +169,12 @@ aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
 
+/* Left off fixing border foor proof TODO keep going! */
 /* prf:proof (replaces style from admonition class in JB1*/
 aside[id^="proof-"] {
   border-color: var(--tud-cyan);
   background-color: var(--tud-cyan-min);
-  border-color: var(--tud-cyan);
+  border: 5px solid var(--tud-cyan);
 }
 
 aside[id^="proof-"] > div:first-child {
