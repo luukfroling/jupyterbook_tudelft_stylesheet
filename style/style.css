@@ -196,15 +196,15 @@ aside[id^="exercise-"] {
 
  /* Exercise */
  /* Style for title */
-aside[id^="exercise-"] > div:first-child > div:first-child::after {
+aside[id^="exercise-"] > div:first-child::after {
   content: "\f12e";
   color: var(--tud-raspberry);
 }
-aside[id^="exercise-"] > div:first-child > div:first-child::before {
+aside[id^="exercise-"] > div:first-child::before {
   content: "";
 }
 
-aside[id^="exercise-"] > div:first-child > div:first-child {
+aside[id^="exercise-"] > div:first-child {
   background-color: var(--tud-raspberry-mid);
 }
 
