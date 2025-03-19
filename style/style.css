@@ -170,9 +170,17 @@ aside.important > div:first-child > svg {
 }
 
 /* prf:proof (replaces style from admonition class in JB1*/
-aside.prf {
+aside.proof {
+  border-color: var(--tud-cyan);
   background-color: var(--tud-cyan-min);
 }
+
+aside.proof > div:first-child {
+  background-color: var(--tud-cyan-mid);
+}
+
+/* No icon yet */
+
 
   /* all buttons check to make this work
   .sd-btn{
