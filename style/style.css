@@ -192,9 +192,22 @@ aside[id^="definition-"] > div:first-child {
   background-color: var(--tud-blue-mid);
 }
 
-/* No icon yet */
+  
+  /* Axiom, Conjecture, Assumption */
+  aside[id^="axiom-"], 
+   aside[id^="assumption-"],
+    aside[id^="conjecture-"]{
+    background-color: var(--tud-red-min);
+    border-left: .2rem solid var(--tud-red);
+    border-radius: .25rem;
+  }
+  aside[id^="axiom-"] > div:first-child,
+   aside[id^="assumption-"] > div:first-child,
+    aside[id^="conjecture-"] > div:first-child{
+    background-color: var(--tud-red-mid);
+  }
 
-
+  /* Unsure what this is lol */
   /* all buttons check to make this work
   .sd-btn{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

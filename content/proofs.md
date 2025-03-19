@@ -39,3 +39,24 @@ $$
 &\text{s.t. }\hspace{2mm}Bp \leq \beta Ap
 $$
 ::::::
+
+## prf:axiom
+
+::::::{prf:axiom} Completeness of $\mathbb{R}$
+:label: axiom-1
+Every Cauchy sequence on the real line is convergent.
+::::::
+
+## prf:conjecture
+
+::::::{prf:conjecture} Fake $\gamma$ conjecture
+:label: conjecture-1
+This is a dummy conjecture to illustrate that one can use math in titles.
+::::::
+
+## assumption
+
+::::::{prf:assumption} Fake $\gamma$ conjecture
+:label: assumption-1
+This is a dummy conjecture to illustrate that one can use math in titles.
+::::::
