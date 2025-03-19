@@ -173,6 +173,7 @@ aside.important > div:first-child > svg {
 aside[id^="proof-"] {
   border-color: var(--tud-cyan);
   background-color: var(--tud-cyan-min);
+  border-color: var(--tud-cyan);
 }
 
 aside[id^="proof-"] > div:first-child {
