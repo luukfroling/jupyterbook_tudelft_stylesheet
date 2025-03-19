@@ -195,7 +195,7 @@ aside[id^="exercise-"] {
 }
 
  /* Exercise */
- /* Style for title */
+ /* TODO: icon not working */
 aside[id^="exercise-"] > div:first-child::after {
   content: "\f12e";
   color: var(--tud-raspberry);
