@@ -172,9 +172,8 @@ aside.important > div:first-child > svg {
 /* Left off fixing border foor proof TODO keep going! */
 /* prf:proof (replaces style from admonition class in JB1*/
 aside[id^="proof-"] {
-  border-color: var(--tud-cyan);
   background-color: var(--tud-cyan-min);
-  border: 5px solid var(--tud-cyan);
+  border-left: .2rem solid var(--tud-cyan);
 }
 
 aside[id^="proof-"] > div:first-child {
