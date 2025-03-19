@@ -181,6 +181,21 @@ aside[id^="proof-"] > div:first-child {
   background-color: var(--tud-cyan-mid);
 }
 
+/* prf:definition */
+
+aside[id^="proof-"] div:first-child::after {
+  content: "\f02d";
+  color: var(--tud-blue);
+}
+
+aside[id^="proof-"] {
+  border-color: var(--tud-blue);
+  background-color: var(--tud-blue-min);
+}
+aside[id^="proof-"] > div:first-child::after {
+  background-color: var(--tud-blue-mid);
+}
+
 /* No icon yet */
 
 
