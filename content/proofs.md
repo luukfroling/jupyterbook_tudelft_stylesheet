@@ -4,6 +4,7 @@
 
 :::{prf:proof}
 :class: proof
+:label: label-1
 
 We'll omit the full proof.
 
