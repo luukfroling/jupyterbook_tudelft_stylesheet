@@ -3,6 +3,8 @@
 ## prf:proof
 
 ::::::{prf:proof}
+:class: proof
+
 We'll omit the full proof.
 
 But we will prove sufficiency of the asserted conditions.

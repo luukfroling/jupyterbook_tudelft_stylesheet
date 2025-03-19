@@ -169,6 +169,11 @@ aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
 
+/* prf:proof (replaces style from admonition class in JB1*/
+aside.prf {
+  background-color: var(--tud-cyan-min);
+}
+
   /* all buttons check to make this work
   .sd-btn{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
