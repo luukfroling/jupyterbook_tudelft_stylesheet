@@ -184,10 +184,11 @@ aside[id^="proof-"] > div:first-child {
 /* prf:definition */
 
 aside[id^="definition-"] {
-  border-color: var(--tud-blue);
   background-color: var(--tud-blue-min);
+  border-left: .2rem solid var(--tud-blue);
+  border-radius: .25rem;
 }
-aside[id^="definition-"] > div:first-child::after {
+aside[id^="definition-"] > div:first-child {
   background-color: var(--tud-blue-mid);
 }
 
