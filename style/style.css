@@ -178,7 +178,7 @@ aside[id^="proof-"] {
 }
 
 aside[id^="proof-"] > div:first-child {
-  background-color: var(--tud-cyan-mid);
+  display: none;
 }
 
 /* prf:definition */
