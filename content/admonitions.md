@@ -1,5 +1,5 @@
 # admonitions
-::::::{deprecated} v0.1.1
+::::::{topic} v0.1.1
 Here's a deprecation message.
 ::::::
 
