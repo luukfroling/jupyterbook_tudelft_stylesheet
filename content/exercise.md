@@ -16,3 +16,18 @@ $$
 \end{align*}
 $$
 :::
+
+::::::{solution} solution exercise 1
+:label: solution-1
+Here's one solution.
+
+```{code-block} python
+def factorial(n):
+    k = 1
+    for i in range(n):
+        k = k * (i + 1)
+    return k
+
+factorial(4)
+```
+::::::

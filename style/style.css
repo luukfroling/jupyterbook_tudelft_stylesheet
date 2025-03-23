@@ -175,12 +175,23 @@ aside[id^="proof-"] {
   background-color: var(--tud-cyan-min);
   border-left: .2rem solid lightgrey;
   border-radius: .25rem;
-  box-shadow: 0 .2rem .5rem var(--pst-color-shadow), 0 0 .0625rem var(--pst-color-shadow) !important;
 }
 
 aside[id^="proof-"] > div:first-child {
   display: none;
 }
+
+
+/* Solution */
+aside[id^="solution-"] {
+  background-color: var(--tud-purple-min);
+  border-left: .2rem solid var(--tud-purple);
+  border-radius: .25rem;
+}
+aside[id^="solution-"] > .div:first-child {
+  background-color: var(--tud-purple-mid);
+}
+
 
 /* prf:definition */
 
@@ -194,20 +205,22 @@ aside[id^="definition-"] > div:first-child {
 }
 
 /* Theorem, Lemma, Preposition, Corollary, Criterion  */
-div.theorem, 
-div.criterion,
-div.lemma,
-div.proposition, 
-div.corollary {
-  border-color: var(--tud-darkGreen);
-  background-color: var(--tud-darkGreen-min);
+aside[id^="theorem-"],
+ aside[id^="criterion-"],
+  aside[id^="lemma-"],
+   aside[id^="proposition-"], 
+    aside[id^="corollary-"] {
+      background-color: var(--tud-darkGreen-min);
+      border-left: .2rem solid var(--tud-darkGreen);
+      border-radius: .25rem;
 }
-div.theorem > p.admonition-title,
-div.criterion > p.admonition-title,
-div.lemma > p.admonition-title,
-  div.proposition > p.admonition-title,
-  div.corollary >p.admonition-title {
-  background-color: var(--tud-darkGreen-mid);
+
+aside[id^="theorem-"] > div:first-child,
+  aside[id^="criterion-"] > div:first-child,
+   aside[id^="lemma-"] > div:first-child,
+    aside[id^="proposition-"] > div:first-child,
+     aside[id^="corollary-"] > div:first-child {
+      background-color: var(--tud-darkGreen-mid);
 }
   
 /* Axiom, Conjecture, Assumption */
