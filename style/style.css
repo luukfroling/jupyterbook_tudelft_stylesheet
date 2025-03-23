@@ -291,16 +291,25 @@ aside[id^="exercise-"] {
 
  /* Exercise */
  /* TODO: icon not working */
-aside[id^="exercise-"] > div:first-child::after {
+/* aside[id^="exercise-"] > div:first-child::after {
   content: "\f12e";
   color: var(--tud-raspberry);
-}
+} */
 aside[id^="exercise-"] > div:first-child::before {
   content: "";
 }
 
 aside[id^="exercise-"] > div:first-child {
   background-color: var(--tud-raspberry-mid);
+}
+
+/* Solution */
+aside[id^="solution-"] {
+  border-color: var(--tud-purple);
+  background-color: var(--tud-purple-min);
+}
+aside[id^="solution-"] > div:first-child {
+  background-color: var(--tud-purple-mid);
 }
 
 .tud-red {color: var(--tud-red);}
