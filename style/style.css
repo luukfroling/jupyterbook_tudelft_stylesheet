@@ -173,8 +173,9 @@ aside.important > div:first-child > svg {
 /* prf:proof (replaces style from admonition class in JB1*/
 aside[id^="proof-"] {
   background-color: var(--tud-cyan-min);
-  border-left: .2rem solid var(--grey-border-color);
+  border-left: .2rem solid lightgrey;
   border-radius: .25rem;
+  box-shadow: 0 .2rem .5rem var(--pst-color-shadow), 0 0 .0625rem var(--pst-color-shadow) !important;
 }
 
 aside[id^="proof-"] > div:first-child {
