@@ -249,6 +249,20 @@ aside[id^="property-"] > div:first-child,
     background-color: var(--tud-orange-mid);
 }
 
+/* Algorithm */
+
+aside[id^="algorithm-"] {
+  background-color: var(--tud-darkBlue-min);
+  border-left: .2rem solid var(--tud-darkBlue);
+  border-radius: .25rem;
+}
+aside[id^="algorithm-"] > div:first-child {
+  background-color: var(--tud-darkBlue-mid);
+  border-top: .15rem solid var(--tud-darkBlue-mid);
+  border-bottom: .15rem solid var(--tud-darkBlue-mid);
+}
+  
+
 
 /* Example */
 aside[id^="example-"] {
@@ -260,22 +274,6 @@ aside[id^="example-"] > div:first-child {
   background-color: var(--tud-yellow-mid);
   /* color: white; */
 }
-
-
-
-  /* Unsure what this is lol */
-  /* all buttons check to make this work
-  .sd-btn{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s, transform 0.3s;
-    border: 0 !important;
-  }
-  .sd-btn:hover{
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
-    border: 0 !important;
-  } */
-
 
  /* button primary */
  a.button{

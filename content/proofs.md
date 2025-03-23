@@ -1,6 +1,6 @@
 # Proofs
 
-## prf:theorem
+## prf: theorem
 
 ::::::{prf:theorem} Orthogonal-Projection-Theorem
 :label: theorem-1
@@ -21,6 +21,25 @@ The minimizer $\hat y$ is the unique vector in $\mathbb R^n$ that satisfies
 The vector $\hat y$ is called the **orthogonal projection** of $y$ onto $S$.
 ::::::
 
+## prf: algorithm
+
+::::::{prf:algorithm} Ford–Fulkerson
+:label: algorithm-1
+
+**Inputs** Given a Network $G=(V,E)$ with flow capacity $c$, a source node $s$, and a sink node $t$
+
+**Output** Compute a flow $f$ from $s$ to $t$ of maximum value
+
+1. $f(u, v) \leftarrow 0$ for all edges $(u,v)$
+2. While there is a path $p$ from $s$ to $t$ in $G_{f}$ such that $c_{f}(u,v)>0$ for all edges $(u,v) \in p$:
+
+	1. Find $c_{f}(p)= \min \{c_{f}(u,v):(u,v)\in p\}$
+	2. For each edge $(u,v) \in p$
+
+		1. $f(u,v) \leftarrow f(u,v) + c_{f}(p)$ *(Send flow along the path)*
+		2. $f(u,v) \leftarrow f(u,v) - c_{f}(p)$ *(The flow might be "returned" later)*
+::::::
+
 ## prf: criterion
 
 ::::::{prf:criterion} Weyl's criterion
@@ -33,7 +52,7 @@ and only if for all non-zero integers $m$,
 ```
 ::::::
 
-## prf:lemma
+## prf: lemma
 
 ::::::{prf:lemma}
 :label: lemma-1
@@ -46,14 +65,14 @@ K(\hat F, \theta) = (\theta I - C'\hat P C)^{-1} C' \hat P  (A - B \hat F)
 ```
 ::::::
 
-## prf:proposition
+## prf: proposition
 
 ::::::{prf:proposition}
 :label: proposition-1
 This is a dummy proposition directive.
 ::::::
 
-## prf:corollary
+## prf: corollary
 
 ::::::{prf:corollary}
 :label: corollary-1
@@ -61,7 +80,7 @@ If $A$ is a convergent matrix, then there exists a matrix norm such
 that $\vert \vert A \vert \vert < 1$.
 ::::::
 
-## prf:observation 
+## prf: observation 
 
 ::::::{prf:observation}
 :class: doesthisclasswork
@@ -70,7 +89,7 @@ This is a dummy observation directive.
 ::::::
 
 
-## prf:property 
+## prf: property 
 
 ::::::{prf:property}
 :class: doesthisclasswork
@@ -79,7 +98,7 @@ This is a dummy property to illustrate the directive.
 ::::::
 
 
-## prf:example 
+## prf: example 
 
 ::::::{prf:example}
 :class: pleasework
@@ -102,7 +121,7 @@ ex2.simulate(x0)
 ```
 ::::::
 
-## prf:proof
+## prf: proof
 
 :::{prf:proof}
 :class: proof
@@ -127,7 +146,7 @@ Let $z$ be any other point in $S$ and use the fact that $S$ is a linear subspace
 Hence $\| y - z \| \geq \| y - \hat y \|$, which completes the proof.
 :::
 
-##  prf:definition
+##  prf: definition
 
 ::::::{prf:definition}
 :class: customClass
@@ -142,21 +161,21 @@ $$
 $$
 ::::::
 
-## prf:axiom
+## prf: axiom
 
 ::::::{prf:axiom} Completeness of $\mathbb{R}$
 :label: axiom-1
 Every Cauchy sequence on the real line is convergent.
 ::::::
 
-## prf:conjecture
+## prf: conjecture
 
 ::::::{prf:conjecture} Fake $\gamma$ conjecture
 :label: conjecture-1
 This is a dummy conjecture to illustrate that one can use math in titles.
 ::::::
 
-## prf:assumption
+## prf: assumption
 
 ::::::{prf:assumption}
 :label: assumption-1
