@@ -312,13 +312,6 @@ aside[id^="solution-"] > div:first-child  {
   color: var(--tud-purple);
   background-color: var(--tud-purple-mid);
 }
-aside[id^="solution-"] > div:first-child > div:first-child  {
-  visibility: hidden; /* Hides all content inside the div */
-}
-
-aside[id^="solution-"] > div:first-child > div:first-child > p {
-  visibility: visible; /* Makes only the <p> element and its content visible */
-}
 
 .tud-red {color: var(--tud-red);}
 .tud-blue {color: var(--tud-blue);}
