@@ -335,6 +335,11 @@ a:hover:not([aria-current="page"]) {
   color: var(--pst-color-secondary) !important;
 }
 
+/* Class prev next title */
+.prev-next-title {
+  color: var(--pst-color-primary) !important;
+}
+
 .tud-red {color: var(--tud-red);}
 .tud-blue {color: var(--tud-blue);}
 .tud-green {color: var(--tud-green);}

@@ -1,5 +1,9 @@
 # admonitions
 
+::::::{versionadded} v0.1.1
+Here's a version added message.
+::::::
+
 ::::::{admonition} The one with the custom titles
 :class: admonition
 It's got a certain charm to it. (admonition)
