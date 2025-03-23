@@ -253,7 +253,7 @@ aside[id^="property-"] > div:first-child,
 
 aside[id^="algorithm-"] {
   background-color: var(--tud-darkBlue-min);
-  border-left: .2rem solid var(--tud-darkBlue);
+  /* border-left: .2rem solid var(--tud-darkBlue); */
   border-radius: .25rem;
 }
 aside[id^="algorithm-"] > div:first-child {
