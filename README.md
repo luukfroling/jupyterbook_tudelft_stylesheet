@@ -37,5 +37,6 @@ How to use the specific components and styles can be found here (link example bo
 - For prf:proof there is a title difference with the JB1 version 
 - custom components (incl solution link)
 - make dropdown in menu tudelft blue too.
+- versionadded
 
 

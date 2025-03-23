@@ -1,7 +1,6 @@
 # admonitions
-
-::::::{versionadded} v0.1.1
-Here's a version added message.
+::::::{deprecated} v0.1.1
+Here's a deprecation message.
 ::::::
 
 ::::::{admonition} The one with the custom titles
