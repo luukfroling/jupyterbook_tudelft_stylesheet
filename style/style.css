@@ -78,14 +78,8 @@ html[data-theme="dark"] {
   --tud-darkBlue-min: #c1e3ff10;
   --tud-darkBlue-mid: #c1e3ff25;
 }
-
-/* Unsure how this changes the page. included for future reference */
-html {
-  --pst-color-primary: var(--tud-cyan) !important;
-  --pst-color-secondary: var(--tud-green) !important;
-  --pst-color-table-row-hover-bg: var(--tud-raspberry-mid) !important;
-}
-
+/* ADMONITIONS */
+/* Admonitions can be used using :class: ... (see docs) */
 
 /* Admonitions Danger and Error */
 aside.danger, 
@@ -102,11 +96,13 @@ div.admonition.danger > div:first-child::after,
   color: var(--tud-red);
 }
 
+/* Admonition topic */
+
 aside.topic {
   background-color: #f9fafbcc;
 }
 
-/* Caution, Warning, Attention, Important */
+/* Admonition Caution, Warning, Attention, Important */
 aside.caution, aside.warning, aside.attention, aside.important {
   border-color: var(--tud-orange);
   background-color: var(--tud-orange-min);
@@ -124,7 +120,7 @@ aside.caution > div:first-child::after,
   color: var(--tud-orange);
 }
 
-/* Hint, Note, SeeAlso, Tip, Remark */
+/* Admonition Hint, Note, SeeAlso, Tip, Remark */
 aside.hint, 
  aside.note, 
   aside.seealso, 
@@ -148,6 +144,7 @@ div.admonition.hint > div:first-child::after,
   color: var(--tud-green);
 }
 
+ /* Admonition class */
 aside.admonition {
   border-color: var(--tud-cyan);
   background-color: var(--tud-cyan-min);
@@ -173,8 +170,12 @@ aside.important > div:first-child > svg {
   fill: var(--tud-orange);
 }
 
-/* Left off fixing border foor proof TODO keep going! */
-/* prf:proof (replaces style from admonition class in JB1*/
+/* PROOFS PRF:... */
+/* As we are unable to add classes to proofs, we target the id's */
+/* Every prf:xyz must have :label: xyz-... where any text can be added to distinguish different proofs */
+
+/* prf:proof */
+
 aside[id^="proof-"] {
   background-color: var(--tud-cyan-min);
   border-left: .2rem solid lightgrey;
@@ -186,7 +187,7 @@ aside[id^="proof-"] > div:first-child {
 }
 
 
-/* Solution */
+/* prf:solution */
 aside[id^="solution-"] {
   background-color: var(--tud-purple-min);
   border-left: .2rem solid var(--tud-purple);
@@ -208,7 +209,7 @@ aside[id^="definition-"] > div:first-child {
   background-color: var(--tud-blue-mid);
 }
 
-/* Theorem, Lemma, Preposition, Corollary, Criterion  */
+/* prf: (Theorem, Lemma, Preposition, Corollary, Criterion)  */
 aside[id^="theorem-"],
  aside[id^="criterion-"],
   aside[id^="lemma-"],
@@ -227,7 +228,7 @@ aside[id^="theorem-"] > div:first-child,
       background-color: var(--tud-darkGreen-mid);
 }
   
-/* Axiom, Conjecture, Assumption */
+/* prf: (Axiom, Conjecture, Assumption) */
 aside[id^="axiom-"], 
   aside[id^="assumption-"],
   aside[id^="conjecture-"]{
@@ -241,7 +242,7 @@ aside[id^="axiom-"] > div:first-child,
   background-color: var(--tud-red-mid);
 }
 
-/* Property, Observation */
+/* prf: (Property, Observation) */
 aside[id^="property-"],
  aside[id^="observation-"]{
     background-color: var(--tud-orange-min);
@@ -253,7 +254,7 @@ aside[id^="property-"] > div:first-child,
     background-color: var(--tud-orange-mid);
 }
 
-/* Algorithm */
+/* prf:Algorithm */
 
 aside[id^="algorithm-"] {
   background-color: var(--tud-darkBlue-min);
@@ -266,9 +267,7 @@ aside[id^="algorithm-"] > div:first-child {
   border-bottom: .15rem solid var(--tud-darkBlue-mid);
 }
   
-
-
-/* Example */
+/* prf:Example */
 aside[id^="example-"] {
   background-color: var(--tud-yellow-min);
   border-left: .2rem solid var(--tud-yellow);
@@ -276,29 +275,20 @@ aside[id^="example-"] {
 }
 aside[id^="example-"] > div:first-child {
   background-color: var(--tud-yellow-mid);
-  /* color: white; */
 }
 
- /* button primary */
- a.button{
-   color: #FFFFFF !important;
-   background-color: var(--tud-cyan) !important;
-   border-color: var(--tud-cyan) !important;
- }
+ /* BUTTON */
+a.button{
+  color: #FFFFFF !important;
+  background-color: var(--tud-cyan) !important;
+  border-color: var(--tud-cyan) !important;
+}
+
+/* EXERCISE AND SOLUTION */
 
 aside[id^="exercise-"] {
   border-color: var(--tud-raspberry);
   background-color: var(--tud-raspberry-min);
-}
-
- /* Exercise */
- /* TODO: icon not working */
-/* aside[id^="exercise-"] > div:first-child::after {
-  content: "\f12e";
-  color: var(--tud-raspberry);
-} */
-aside[id^="exercise-"] > div:first-child::before {
-  content: "";
 }
 
 aside[id^="exercise-"] > div:first-child {
@@ -315,11 +305,11 @@ aside[id^="solution-"] > div:first-child  {
   background-color: var(--tud-purple-mid);
 }
 
-
 aside[id^="solution-"] > div:first-child > div:first-child > span {
   color: black; /* Makes only the <p> element and its content visible */
 }
 
+/* <a> elemts in for example the menubar on the side */
 
 html {
   --pst-color-primary: var(--tud-cyan) !important;
@@ -341,6 +331,8 @@ a:hover:not([aria-current="page"]) {
 .prev-next-title {
   color: var(--pst-color-primary) !important;
 }
+
+/* Colours as classes */
 
 .tud-red {color: var(--tud-red);}
 .tud-blue {color: var(--tud-blue);}
