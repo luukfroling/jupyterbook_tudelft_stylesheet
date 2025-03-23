@@ -102,6 +102,10 @@ div.admonition.danger > div:first-child::after,
   color: var(--tud-red);
 }
 
+aside.topic {
+  background-color: var(--tud-gray-mid);
+}
+
 /* Caution, Warning, Attention, Important */
 aside.caution, aside.warning, aside.attention, aside.important {
   border-color: var(--tud-orange);

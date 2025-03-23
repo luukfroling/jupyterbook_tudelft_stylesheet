@@ -1,5 +1,6 @@
 # admonitions
 ::::::{topic} v0.1.1
+:class: topic
 Here's a deprecation message.
 ::::::
 
