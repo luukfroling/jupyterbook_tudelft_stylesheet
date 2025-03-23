@@ -2,7 +2,7 @@
 
 
 
-:::{exercise}
+:::{exercise} exercise 1
 :label: exercise-1
 
 The *economical expansion problem* (EEP) for
@@ -17,7 +17,7 @@ $$
 $$
 :::
 
-::::::{solution} solution exercise 1
+::::::{solution} exercise 1
 :label: solution-1
 Here's one solution.
 

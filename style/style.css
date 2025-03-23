@@ -309,6 +309,7 @@ aside[id^="solution-"] {
   background-color: var(--tud-purple-min);
 }
 aside[id^="solution-"] > div:first-child {
+  color: var(--tud-purple);
   background-color: var(--tud-purple-mid);
 }
 
