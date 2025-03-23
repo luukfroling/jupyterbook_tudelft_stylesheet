@@ -312,8 +312,27 @@ aside[id^="solution-"] > div:first-child  {
   color: var(--tud-purple);
   background-color: var(--tud-purple-mid);
 }
-aside[id^="solution-"] > div:first-child > div:first-child > *:not(span) {
-  display: none; /* Hides all elements inside div except <span> */
+
+
+aside[id^="solution-"] > div:first-child > div:first-child > span {
+  color: black; /* Makes only the <p> element and its content visible */
+}
+
+
+html {
+  --pst-color-primary: var(--tud-cyan) !important;
+  --pst-color-secondary: var(--tud-green) !important;
+  --pst-color-table-row-hover-bg: var(--tud-raspberry-mid) !important;
+}
+
+/* if <a> element has aria-current:"page" then make text pst-color-primary */
+a[aria-current="page"] {
+  color: var(--pst-color-primary) !important;
+}
+
+/* If not, make text colour secondary on hover */
+a:hover:not([aria-current="page"]) {
+  color: var(--pst-color-secondary) !important;
 }
 
 .tud-red {color: var(--tud-red);}

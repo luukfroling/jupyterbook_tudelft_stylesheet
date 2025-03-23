@@ -17,7 +17,7 @@ $$
 $$
 :::
 
-::::::{solution} exercise 100
+::::::{solution} exercise 1
 :label: solution-1
 Here's one solution.
 

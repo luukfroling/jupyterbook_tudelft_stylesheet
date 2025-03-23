@@ -35,4 +35,6 @@ How to use the specific components and styles can be found here (link example bo
 - grasple is not included
 - some originally referenced icons are not available yet
 - For prf:proof there is a title difference with the JB1 version 
+- custom components (incl solution link)
+
 
