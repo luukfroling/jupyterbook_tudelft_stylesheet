@@ -103,7 +103,7 @@ div.admonition.danger > div:first-child::after,
 }
 
 aside.topic {
-  background-color: var(--tud-gray-mid);
+  background-color: #f9fafbcc;
 }
 
 /* Caution, Warning, Attention, Important */
