@@ -192,20 +192,61 @@ aside[id^="definition-"] > div:first-child {
   background-color: var(--tud-blue-mid);
 }
 
+/* Theorem, Lemma, Preposition, Corollary, Criterion  */
+div.theorem, 
+div.criterion,
+div.lemma,
+div.proposition, 
+div.corollary {
+  border-color: var(--tud-darkGreen);
+  background-color: var(--tud-darkGreen-min);
+}
+div.theorem > p.admonition-title,
+div.criterion > p.admonition-title,
+div.lemma > p.admonition-title,
+  div.proposition > p.admonition-title,
+  div.corollary >p.admonition-title {
+  background-color: var(--tud-darkGreen-mid);
+}
   
-  /* Axiom, Conjecture, Assumption */
-  aside[id^="axiom-"], 
-   aside[id^="assumption-"],
-    aside[id^="conjecture-"]{
-    background-color: var(--tud-red-min);
-    border-left: .2rem solid var(--tud-red);
+/* Axiom, Conjecture, Assumption */
+aside[id^="axiom-"], 
+  aside[id^="assumption-"],
+  aside[id^="conjecture-"]{
+  background-color: var(--tud-red-min);
+  border-left: .2rem solid var(--tud-red);
+  border-radius: .25rem;
+}
+aside[id^="axiom-"] > div:first-child,
+  aside[id^="assumption-"] > div:first-child,
+  aside[id^="conjecture-"] > div:first-child{
+  background-color: var(--tud-red-mid);
+}
+
+/* Property, Observation */
+aside[id^="property-"],
+ aside[id^="observation-"]{
+    background-color: var(--tud-orange-min);
+    border-left: .2rem solid var(--tud-orange);
     border-radius: .25rem;
   }
-  aside[id^="axiom-"] > div:first-child,
-   aside[id^="assumption-"] > div:first-child,
-    aside[id^="conjecture-"] > div:first-child{
-    background-color: var(--tud-red-mid);
-  }
+aside[id^="property-"] > div:first-child,
+  aside[id^="observation-"] > div:first-child{
+    background-color: var(--tud-orange-mid);
+}
+
+
+/* Example */
+aside[id^="example-"] {
+  border-color: var(--tud-yellow);
+  background-color: var(--tud-yellow-min);
+}
+div.example > p.admonition-title {
+  background-color: var(--tud-yellow-mid);
+  /* color: white; */
+}
+
+
 
   /* Unsure what this is lol */
   /* all buttons check to make this work

@@ -1,5 +1,46 @@
 # Proofs
 
+## observation 
+
+::::::{prf:observation}
+:class: doesthisclasswork
+:label: observation-1
+This is a dummy observation directive.
+::::::
+
+
+## property 
+
+::::::{prf:property}
+:class: doesthisclasswork
+:label: property-1
+This is a dummy property to illustrate the directive.
+::::::
+
+
+## example 
+
+::::::{prf:example}
+:class: pleasework
+:label: example-1
+Next, we shut down randomness in demand and assume that the demand shock
+$\nu_t$ follows a deterministic path:
+
+
+```{math}
+\nu_t = \alpha + \rho \nu_{t-1}
+```
+
+Again, we’ll compute and display outcomes in some figures
+
+```python
+ex2 = SmoothingExample(C2=[[0], [0]])
+
+x0 = [0, 1, 0]
+ex2.simulate(x0)
+```
+::::::
+
 ## prf:proof
 
 :::{prf:proof}
@@ -56,7 +97,7 @@ This is a dummy conjecture to illustrate that one can use math in titles.
 
 ## assumption
 
-::::::{prf:assumption} Fake $\gamma$ conjecture
+::::::{prf:assumption}
 :label: assumption-1
-This is a dummy conjecture to illustrate that one can use math in titles.
+This is a dummy assumption directive.
 ::::::
