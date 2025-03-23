@@ -238,10 +238,11 @@ aside[id^="property-"] > div:first-child,
 
 /* Example */
 aside[id^="example-"] {
-  border-color: var(--tud-yellow);
   background-color: var(--tud-yellow-min);
+  border-left: .2rem solid var(--tud-yellow);
+  border-radius: .25rem;
 }
-div.example > p.admonition-title {
+aside[id^="example-"] > div:first-child {
   background-color: var(--tud-yellow-mid);
   /* color: white; */
 }
