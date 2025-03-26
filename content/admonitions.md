@@ -71,7 +71,7 @@ this one is caution
 this one is attention
 ::::::
 
-# note
+## note
 
 Note works in combination with a topic like so 
 
