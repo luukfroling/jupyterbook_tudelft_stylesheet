@@ -322,8 +322,6 @@ html {
 a[aria-current="page"] {
   color: var(--pst-color-primary) !important;
   background-color: white;
-  border-left: .15rem var(--pst-color-primary) !important;
-  border-radius: 0rem !important;
 }
 
 /* If not, make text colour secondary on hover */
@@ -339,7 +337,7 @@ a:hover:not([aria-current="page"]) {
 /* Override text-blue-800 to pst-color-primary */
 /* This colour seems to be only used in the TOC.  */
 .text-blue-800 {
-  color: var(--pst-color-primary) !important;
+  color: black; /* I set this to black as this is the case in the jb1 stylesheet */
 }
 
 /* Colours as classes */
