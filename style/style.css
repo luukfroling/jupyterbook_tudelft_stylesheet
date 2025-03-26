@@ -340,10 +340,17 @@ a:hover:not([aria-current="page"]) {
   color: black; /* I set this to black as this is the case in the jb1 stylesheet */
 }
 
-.text-blue-800 {
+li > .text-blue-600 {
   color: var(--pst-color-primary) !important;
 }
 
+li.border-l-blue-500 {
+  color: var(--pst-color-primary) !important;
+}
+
+li.bg-blue-50 {
+  color: white;
+}
 /* Colours as classes */
 
 .tud-red {color: var(--tud-red);}
