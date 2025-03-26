@@ -322,7 +322,8 @@ html {
 a[aria-current="page"] {
   color: var(--pst-color-primary) !important;
   background-color: white;
-  border-left: .15rem var(--pst-color-primary);
+  border-left: .15rem var(--pst-color-primary) !important;
+  border-radius: 0rem !important;
 }
 
 /* If not, make text colour secondary on hover */
