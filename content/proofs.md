@@ -1,5 +1,17 @@
 # Proofs
 
+## general usage: 
+
+All of the components described below can be used via their id. Provide every component with an id starting with the name of the compinent followed by a unique identifier.
+
+```text
+::::::{prf:proposition}
+:label: proposition-1
+This is a dummy proposition directive.
+::::::
+```
+
+
 ## prf: theorem
 
 ::::::{prf:theorem} Orthogonal-Projection-Theorem

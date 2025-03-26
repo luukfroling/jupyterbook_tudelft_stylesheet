@@ -1,6 +1,28 @@
 # exercise 
 
 
+## usage
+
+The exercises are identified by their id, so label every exercise starting with "exercise-" followed by a unique identifier
+
+```text
+::::::{exercise} exercise 1
+:label: exercise-1
+Proof 1 + 1
+::::::
+```
+
+The solution works in a similar manner 
+
+```text
+::::::{solution} exercise 1
+:label: solution-1
+I should have picked an easier example exercise...
+:::
+```
+
+## examples
+
 
 :::{exercise} exercise 1
 :label: exercise-1
