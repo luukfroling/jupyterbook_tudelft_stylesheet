@@ -21,8 +21,9 @@ I should have picked an easier example exercise...
 :::
 ```
 
-## examples
+## Exercise
 
+:label: exercise-1
 
 :::{exercise} exercise 1
 :label: exercise-1
@@ -38,6 +39,10 @@ $$
 \end{align*}
 $$
 :::
+
+## solution
+
+:label: solution-1
 
 ::::::{solution} exercise 1
 :label: solution-1
