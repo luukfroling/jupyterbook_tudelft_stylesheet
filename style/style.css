@@ -333,6 +333,12 @@ a:hover:not([aria-current="page"]) {
   color: var(--pst-color-primary) !important;
 }
 
+/* Override text-blue-800 to pst-color-primary */
+/* This colour seems to be only used in the TOC.  */
+.text-blue-800 {
+  color: var(--pst-color-primary) !important;
+}
+
 /* Colours as classes */
 
 .tud-red {color: var(--tud-red);}
