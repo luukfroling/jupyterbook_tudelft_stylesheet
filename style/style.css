@@ -348,7 +348,7 @@ li.border-l-blue-500 {
   color: red !important;
 }
 
-li.bg-blue-50 {
+li > a {
   color: white !important;
 }
 /* Colours as classes */
