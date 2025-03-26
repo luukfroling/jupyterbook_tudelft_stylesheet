@@ -345,11 +345,11 @@ li > .text-blue-600 {
 }
 
 li.border-l-blue-500 {
-  color: var(--pst-color-primary) !important;
+  color: red !important;
 }
 
 li.bg-blue-50 {
-  color: white;
+  color: white !important;
 }
 /* Colours as classes */
 
