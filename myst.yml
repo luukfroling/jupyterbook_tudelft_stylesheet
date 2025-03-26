@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 7415f08b-e5ec-4dc3-bd07-4283643c2045
-  title: jb2
+  title: TU Delft theme (NEXT)
   description: The Tudelft stylesheet for Jupyter Book 2
   keywords: []
   github: https://github.com/luukfroling/jupyterbook_tudelft_stylesheet
