@@ -321,6 +321,8 @@ html {
 /* if <a> element has aria-current:"page" then make text pst-color-primary */
 a[aria-current="page"] {
   color: var(--pst-color-primary) !important;
+  background-color: white;
+  border-left: .15rem var(--pst-color-primary);
 }
 
 /* If not, make text colour secondary on hover */
