@@ -288,6 +288,7 @@ a.button{
 
 aside[id^="exercise-"] {
   border-left: .2rem solid var(--tud-raspberry);
+  border-radius: .25rem;
   background-color: var(--tud-raspberry-min);
 }
 

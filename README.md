@@ -1,12 +1,10 @@
-# TU Delft stylesheet JB2
-
-A JB2 implementation of the TU Delft stylesheet originally written for JB1 (https://github.com/TeachBooks/Sphinx-TUDelft-theme?tab=readme-ov-file). 
+# Jyputer Book 2 stylesheet: TUDelft theme
 
 :construction: This is still a work in progress :construction:
 
-Several features have not been implemented yet. 
+A JB2 implementation of the TU Delft stylesheet originally written as a sphinx extension which can be found <a href="https://github.com/TeachBooks/Sphinx-TUDelft-theme?tab=readme-ov-file"> here </a>. It is important to note this stylesheet can be used, however as jupyter book 2 is still in early development some features originally included in the extension have not been implemented yet.
 
-## What does it do
+## What does it do? 
 
 This extension applies styling changes, being
 
@@ -20,13 +18,13 @@ This extension applies styling changes, being
 
 ## installation 
 
-To use this style, download the .css file and follow the steps described here https://mystmd.org/guide/website-style
+To use this style, download the .css file and follow the steps described in the JB2 documentation <a href="https://mystmd.org/guide/website-style"> here </a>
 
 ## example book and usage
 
-How to use the specific components and styles can be found here (link example book)
+How to use the specific components and styles can be found <a href="https://luukfroling.github.io/jupyterbook_tudelft_stylesheet/"> here </a>
 
-## what does it not do (TODO)
+## what does it not do? 
 
 - set standard primary and secondary colours of the book
 - Badges have not been implemented in JB 2 yet (as far as I know) 
