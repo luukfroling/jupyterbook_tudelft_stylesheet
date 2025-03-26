@@ -24,9 +24,60 @@ To use this style, download the .css file and follow the steps described in the 
 
 How to use the specific components and styles can be found <a href="https://luukfroling.github.io/jupyterbook_tudelft_stylesheet/"> here </a>
 
-## what does it not do? 
+### Admonitions: 
 
-- set standard primary and secondary colours of the book
+Admonitions can by styled by applying the class of the chosen style 
+
+```text
+::::::{admonition} The one with the custom titles
+:class: admonition
+It's got a certain charm to it. (admonition)
+::::::
+```
+
+### Button
+
+The button works as normal
+
+```text
+{button}`MyST-MD GitHub <example.com>`
+```
+
+### Exercise and solution
+
+The exercises are identified by their id, so label every exercise starting with "exercise-" followed by a unique identifier
+
+```text
+::::::{exercise} exercise 1
+:label: exercise-1
+Proof 1 + 1
+::::::
+```
+
+The solution works in a similar manner 
+
+```text
+::::::{solution} exercise 1
+:label: solution-1
+I should have picked an easier example exercise...
+:::
+```
+
+### Proofs (prf:)
+
+All of these subcomponents can be used similar to the exercise and solution, by the use of a label. The first part of the label specifies which component style must be applied while the second part is a unique identifier. e.g. 'proposition-1', 'corollary-7392'. 
+
+```text
+::::::{prf:proposition}
+:label: proposition-1
+This is a dummy proposition directive.
+::::::
+```
+
+
+
+## what does it not do? 
+- apply TUDelft logo
 - Badges have not been implemented in JB 2 yet (as far as I know) 
 - There is only a single button class
 - All elements starting with prf: as well as the exercises are being identified by their id. This is because so far it is not possible to attach custom css classes. 
